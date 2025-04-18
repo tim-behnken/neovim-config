@@ -12,11 +12,14 @@ vim.opt.tabstop = 4
 
 -- Sync clipboard between OS and Neovim.
 vim.schedule(function()
-	vim.opt.clipboard = "unnamedplus"
+  vim.opt.clipboard = "unnamedplus"
 end)
 
 -- Continued lines follow previous indent
 vim.opt.breakindent = true
+
+-- Enable filetype detection
+vim.opt.filetype = on
 
 -- Save undo history
 vim.opt.undofile = true

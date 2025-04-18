@@ -66,7 +66,7 @@ vim.keymap.set("n", "<C-`>", "<cmd>ToggleTerm<CR>")
 vim.keymap.set("n", "-", "<cmd>Oil --preview --float<CR>")
 
 -- Open github repos
-vim.keymap.set("n", "or", "<cmd>Oil --preview --float ~/code/github.com<CR>")
+-- vim.keymap.set("n", "or", "<cmd>Oil --preview --float ~/code/github.com<CR>")
 
 -- -- NOTE: Some terminals have colliding keymaps or are not able to send distinct keycodes
 -- vim.keymap.set("n", "<C-S-h>", "<C-w>H", { desc = "Move window to the left" })
