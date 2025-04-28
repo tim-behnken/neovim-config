@@ -65,6 +65,9 @@ vim.keymap.set("n", "<C-`>", "<cmd>ToggleTerm<CR>")
 -- Open oil
 vim.keymap.set("n", "-", "<cmd>Oil --preview --float<CR>")
 
+-- Copilot chat
+vim.keymap.set("n", "cco", "<cmd>CopilotChatOpen<CR>", { desc = "Open Copilot chat" })
+vim.keymap.set("n", "ccc", "<cmd>CopilotChatClose<CR>", { desc = "Close Copilot chat" })
 -- Open github repos
 -- vim.keymap.set("n", "or", "<cmd>Oil --preview --float ~/code/github.com<CR>")
 
