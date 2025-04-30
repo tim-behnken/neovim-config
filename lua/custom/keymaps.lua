@@ -70,6 +70,11 @@ vim.keymap.set("n", "cco", "<cmd>CopilotChatOpen<CR>", { desc = "Open Copilot ch
 vim.keymap.set("n", "ccc", "<cmd>CopilotChatClose<CR>", { desc = "Close Copilot chat" })
 -- Open github repos
 -- vim.keymap.set("n", "or", "<cmd>Oil --preview --float ~/code/github.com<CR>")
+--
+-- hop
+vim.keymap.set("n", "<leader>w", "<cmd>HopWord<CR>", { desc = "Hop to word" })
+vim.keymap.set("n", "<leader>l", "<cmd>HopLine<CR>", { desc = "Hop to line" })
+vim.keymap.set("n", "<leader>c", "<cmd>HopChar2<CR>", { desc = "Hop to char" })
 
 -- -- NOTE: Some terminals have colliding keymaps or are not able to send distinct keycodes
 -- vim.keymap.set("n", "<C-S-h>", "<C-w>H", { desc = "Move window to the left" })
